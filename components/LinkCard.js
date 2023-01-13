@@ -11,7 +11,7 @@ function LinkCard({link}) {
         
         <h2 className='text-xl w-full  '>{link.title}</h2>
         
-        <div className={'absolute right-4 hidden group-hover:block hover:rounded-full hover:bg-slate-400 p-2 text-gray-700'} >
+        <div className={'absolute opacity-0 hover:opacity-100 duration-200 right-4 hidden group-hover:block hover:rounded-full hover:bg-slate-400 p-2 text-gray-700'} >
         <MdOutlineIosShare size={20}/>
         </div>
     </a>
